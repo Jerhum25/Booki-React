@@ -5,7 +5,7 @@ import React from "react";
 function Header(props) {
   return (
     <div className="containerHeader">
-      <img src="./images/logo/booki.png" alt="logo booki" className="logo" />
+      <img src="./images/logo/Booki.png" alt="logo booki" className="logo" />
       <nav>
         <ul>
           <li>
@@ -16,7 +16,7 @@ function Header(props) {
           </li>
         </ul>
       </nav>
-      <hr/>
+      <hr />
     </div>
   );
 }

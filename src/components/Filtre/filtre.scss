@@ -1,36 +1,36 @@
-.containerFiltre{
+.containerFiltre {
+  display: flex;
+  align-items: center;
+  border: 1px solid #f2f2f2;
+  width: max-content;
+  height: 44px;
+  border-radius: 30px;
+  overflow: hidden;
+  margin: 5px 40px 5px 0;
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover {
+    background: #deebff;
+    border-color: #0065fc;
+    transition: 0.3s;
+  }
+  .icone {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #deebff;
     display: flex;
     align-items: center;
-    border: 1px solid #f2f2f2;
-    width: max-content;
-    height: 44px;
-    border-radius: 30px;
-    overflow: hidden;
-    margin: 5px 40px 5px 0;
-    cursor: pointer;
-    transition: .3s;
-    &:hover{
-        background: #deebff;
-        border-color: #0065fc;
-        transition: .3s;
+    justify-content: center;
+    img {
+      width: 60px;
     }
-    .icone{
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        background: #deebff;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        img{
-            width: 60px;
-        }
+  }
+  p {
+    font-weight: bold;
+    margin: 0 10px;
+    &::first-letter {
+      text-transform: capitalize;
     }
-    p{
-        font-weight: bold;
-        margin: 0 10px;
-        &::first-letter{
-            text-transform: capitalize;
-        }
-    }
+  }
 }
