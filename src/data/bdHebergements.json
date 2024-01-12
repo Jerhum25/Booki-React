@@ -1,0 +1,38 @@
+[
+    {
+        "src": "./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg",
+        "titre": "Auberge de la Canebière",
+        "prix": "25€",
+        "notation": "./images/logo/4etoiles.png"
+    },
+    {
+        "src": "./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg",
+        "titre": "Hôtel du port",
+        "prix": "52€",
+        "notation": "./images/logo/5etoiles.png"
+    },
+    {
+        "src": "./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg",
+        "titre": "Hôtel de la mer",
+        "prix": "46€",
+        "notation": "./images/logo/3etoiles.png"
+    },
+    {
+        "src": "./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg",
+        "titre": "Auberge Le Panier",
+        "prix": "23€",
+        "notation": "./images/logo/4etoiles.png"
+    },
+    {
+        "src": "./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg",
+        "titre": "Hôtel Les Mouettes",
+        "prix": "76€",
+        "notation": "./images/logo/4etoiles.png"
+    },
+    {
+        "src": "./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg",
+        "titre": "Hôtel chez Amina",
+        "prix": "96€",
+        "notation": "./images/logo/3etoiles.png"
+    }
+]

@@ -1,0 +1,28 @@
+.containerActivite{
+    width: 280px;
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px #bbb;
+    cursor: pointer;
+    img{
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+    }
+    p{
+        min-height: 30px;
+        padding-left: 15px;
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 492px){
+    .containerActivite{
+        width: 100%;
+        border-radius: 0;
+    }
+  }

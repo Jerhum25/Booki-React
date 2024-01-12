@@ -1,0 +1,18 @@
+[
+    {
+        "src": "./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg",
+        "titre": "Hôtel Le soleil du matin",
+        "prix": "128€",
+        "notation": "./images/logo/4etoiles.png"
+    },{
+        "src": "./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg",
+        "titre": "Au coeur de l'eau Chambres d'hôtes",
+        "prix": "71€",
+        "notation": "./images/logo/4etoiles.png"
+    },{
+        "src": "./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg",
+        "titre": "Hôtel Tout Bleu et Blanc",
+        "prix": "68€",
+        "notation": "./images/logo/4etoiles.png"
+    }
+]

@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Activites from "./components/Activites/Activites";
+import Banner from "./components/Banner/Banner";
+import Copyright from "./components/Copyright/Copyright";
+import Filtres from "./components/Filtres/Filtres";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import Hebergements from "./components/Hebergements/Hebergements";
+import Info from "./components/Info/Info";
+import Populaires from "./components/Populaires/Populaires";
+import SearchBar from "./components/SearchBar/SearchBar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="containerApp">
+      <Header />
+      <Banner />
+      <SearchBar />
+      <Filtres />
+      <Info />
+      <div className="hebergementsPopulaires">
+        <Hebergements />
+        <Populaires />
+      </div>
+      <Activites />
+      <Footer />
+      <Copyright />
     </div>
   );
 }

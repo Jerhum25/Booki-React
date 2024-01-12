@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face {
+    font-family: 'Raleway-Black';
+    src: url('/src/polices/Raleway-Black.ttf');
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  @font-face {
+    font-family: 'Raleway-Regular';
+    src: url('/src/polices/Raleway-Regular.ttf');
   }
-  to {
-    transform: rotate(360deg);
+  
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-}
+  
+  .containerApp{
+    width: 70%;
+    margin: auto;
+    font-family: 'Raleway-Regular';
+  }
+  .hebergementsPopulaires{
+    display: flex;
+    gap: 50px;
+  }
+  
+
+  @media screen and (max-width: 492px) {
+    .containerApp{
+      width: 100%;
+    }
+    .hebergementsPopulaires{
+      flex-direction: column-reverse;
+      gap: 0;
+    }
+  }
